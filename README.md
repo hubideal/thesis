@@ -15,3 +15,7 @@ McGowan, Chris. *Saving Science Class.*  New York: Prometheus Books, 2017.
 
 Toplis, Rob, ed. *Learning to Teach Science in the Secondary School.* 4th ed, Learning to Teach Subjects in the Secondary School Series. New York: Routledge, 2015.
 >This books covers the process of becoming a science teacher.  Chapter one covers the learning process of becoming a science teacher.  It answers questions about what science teachers need to know, information on the learning process, the proces sof assessment, and ideas on professional learning and enquiry.  Chapter two covers how to manage your profession and develops a model of professional learning and workting toward teaching standards.  The chapter also covers working withyour own experiences and reflections and working with mentors.  The third chapter covers how to work in the school's science department and how schools are organized.  The first few chapters (part one) will be important information on how the science teacher develops as a professional.  The rest of the sections cover the Science Curriculum, Getting to Grips with Science, and planning for teaching and learning Science.  
+
+## Mind Map Image
+
+![alt text](https://github.com/hubideal/thesis/blob/master/EffectivenessMindMap.png?raw=true "Logo Title Text 1") Mind Map
