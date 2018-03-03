@@ -30,15 +30,15 @@
 
 ## Method III:  Review what scenes of a movie were true and untrue.  
 ### *Sub Goal:  Understand the accuracy of a specific scene from a selected film.*  
-### Step 1:  Using the "timeline" found under each movie title, view the pink and blue colors to indicate true and untrue scences from the film.
-### Step 2:  Hover over a pink or blue segment of the timeline using your mouse.
-### Step 3:  Identify the two descriptions below the timeline and a pink false icon or blue true icon.   
-### Step 4:  On the screen, find the word "Movie" and an icon of a film strip.
-### Step 5:  Read a summary of the scene from the movie on the left side.
-### Step 6:  On the screen, find the word "Reality" and an icon of an eye.
-### Step 7:  Read a summary of what happened in real life.
-### Step 8:  Reflect on the differences between the movie and reality. 
-### Step 9:  Sub-Goal accomplished.  
+#### Step 1:  Using the "timeline" found under each movie title, view the pink and blue colors to indicate true and untrue scences from the film.
+#### Step 2:  Hover over a pink or blue segment of the timeline using your mouse.
+#### Step 3:  Identify the two descriptions below the timeline and a pink false icon or blue true icon.   
+#### Step 4:  On the screen, find the word "Movie" and an icon of a film strip.
+#### Step 5:  Read a summary of the scene from the movie on the left side.
+#### Step 6:  On the screen, find the word "Reality" and an icon of an eye.
+#### Step 7:  Read a summary of what happened in real life.
+#### Step 8:  Reflect on the differences between the movie and reality. 
+#### Step 9:  Sub-Goal accomplished.  
 #### Operators:  scene timeline, color pink, color blue, hover  feature of mouse, pink false indicator, blue true indicator, word "Movie", film icon, word "Reality", eye icon.
 #### Selector:  Return to Method I if you are interested in other movies on the website. 
 #### Selector:  Repeat Method II if you are interested in other scenes in the movie.
