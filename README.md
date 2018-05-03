@@ -1,5 +1,11 @@
 # thesis
 
+## Thesis Image
+
+![alt text](https://github.com/hubideal/thesis/blob/master/newThesisPic.png?raw=true "Logo Title Text 1") Mind Map
+
+[Thesis link](https://hubideal.github.io/thesisHubbard/index.html)
+
 ## initial annotated bibliography
 Feiman-Nemser, Sharon, and Miriam Ben-Peretz, eds. *Getting the Teachers We Need: International Perspectives on Teacher Education.* London: Rowman & Littlefield, 2017.
 >This edited book covers various topics in teacher education and development.  It argues that education (internationally) is often organized in an industrial model of devleopment and production. This book focuses on the fact that education needs to find ways to better educate the creative, adaptive, and entrepreneurial learner.  The authors note that this book is not about trying to radically change teacher education, but to better prepare teachers to education in the context of their environments of where they teach.  It also argues that "fast track" acadmeically able individuals to teacher education may not best serve schools because it focuses education on simply delivering information.  
