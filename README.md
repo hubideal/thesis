@@ -1,6 +1,6 @@
 ### Patterns of Professional Identity in STEM Education
 
-![alt text](https://github.com/hubideal/thesis/blob/master/newThesisPic.png?raw=true "Logo Title Text 1") Mind Map
+[![Hubbard Thsis](https://github.com/hubideal/thesis/blob/master/newThesisPic.png?raw=true)](https://hubideal.github.io/thesisHubbard/index.html)
 
 [Thesis link](https://hubideal.github.io/thesisHubbard/index.html)
 
