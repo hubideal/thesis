@@ -28,10 +28,9 @@ body {
 </style>
 <body>
 <script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="graph-scroll.js"></script>
 
 <script>
-var margin = {top: (screen.height)/10, right: (screen.width)/10, bottom: (screen.height)/10, left: (screen.width)/10},
+var margin = {top: (screen.height)/9, right: (screen.width)/9, bottom: (screen.height)/9, left: (screen.width)/9},
     width = screen.width - margin.left - margin.right,
     height = screen.height - margin.top - margin.bottom;
 /* 
@@ -75,31 +74,9 @@ d3.csv("spiral2cluster.csv", function(error, data) {
   });
   
   // don't want dots overlapping axis, so add in buffer to data domain
-  xScale.domain([d3.min(data, xValue)-.05, d3.max(data, xValue)+.05]);
-  yScale.domain([d3.min(data, yValue)-.05, d3.max(data, yValue)+.05]);
-  // x-axis
-  // svg.append("g")
-  //     .attr("class", "x axis")
-  //     .attr("transform", "translate(0," + height + ")")
-  //     .call(xAxis)
-  //   .append("text")
-  //     .attr("class", "label")
-  //     .attr("x", width)
-  //     .attr("y", -6)
-  //     .style("text-anchor", "end")
-  //     .text("X Axis");
-  // y-axis
-  // svg.append("g")
-  //     .attr("class", "y axis")
-  //     .call(yAxis)
-  //   .append("text")
-  //     .attr("class", "label")
-  //     .attr("transform", "rotate(-90)")
-  //     .attr("y", 6)
-  //     .attr("dy", ".71em")
-  //     .style("text-anchor", "end")
-  //     .text("Y Axis");
-  // draw dots
+  xScale.domain([d3.min(data, xValue)-.15, d3.max(data, xValue)+.15]);
+  yScale.domain([d3.min(data, yValue)-.15, d3.max(data, yValue)+.15]);
+
   
   var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -110,21 +87,17 @@ d3.csv("spiral2cluster.csv", function(error, data) {
                 
                   transitionNewDots(d)
             });
+            
   svg.selectAll(".dot")
       .data(data)
       .enter().append("rect")
-      .transition()
       .attr("rx", 6)
       .attr("ry", 6)
       .attr("x", xMap)
       .attr("y", yMap)
-      .attr("width", 42)
+      .attr("width", 30)
       .attr("height", 30)
       .attr("class", "dot")
-      .duration(1000)
-      // .attr("r", 7)
-      // .attr("cx", xMap)
-      // .attr("cy", yMap)
       .style("fill", function(d) { return color(cValue(d));})
       .on("mouseover", function(d) {
           tooltip.transition()
@@ -141,30 +114,6 @@ d3.csv("spiral2cluster.csv", function(error, data) {
                .style("opacity", 0);
       });
       
-  // draw legend
-  // var legend = svg.selectAll(".legend")
-  //     .data(color.domain())
-  //   .enter().append("g")
-  //     .attr("class", "legend")
-  //     .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
-  // // draw legend colored rectangles
-  // legend.append("rect")
-  //     .attr("x", width - 18)
-  //     .attr("width", 18)
-  //     .attr("height", 18)
-  //     .style("fill", color);
-  // // draw legend text
-  // legend.append("text")
-  //     .attr("x", width - 24)
-  //     .attr("y", 9)
-  //     .attr("dy", ".35em")
-  //     .style("text-anchor", "end")
-  //     .text(function(d) { return d;});
-    
-  // d3.graphScroll(".dot")
-  // .sections(d3.selectAll('#sections > div'))
-  // .on('active', function(i){
-  //   console.log(i + 'th section active') });
   
  function transitionNewDots() {
       
@@ -183,7 +132,7 @@ d3.csv("spiral2cluster.csv", function(error, data) {
       .attr("x", xMend)
       .attr("y", yMend)
       .attr("width", 18)
-      .attr("height", 15)
+      .attr("height", 18)
       .style("fill", function(d) { return color(cValue(d));}) 
       .on("mouseover", function(d) {
           tooltip.transition()
